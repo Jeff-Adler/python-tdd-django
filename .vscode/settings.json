@@ -1,3 +1,13 @@
 {
-    "git.ignoreLimitWarning": true
+    "git.ignoreLimitWarning": true,
+    "emmet.excludeLanguages": [
+
+        "markdown"
+    ],
+    "emmet.showSuggestionsAsSnippets": true,
+    "emmet.triggerExpansionOnTab": true,
+    "emmet.includeLanguages": {
+        "*.erb":"html", 
+        "django-html": "html"
+    },
 }
